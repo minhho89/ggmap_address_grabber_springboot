@@ -11,7 +11,7 @@
 	<groupId>dev.minhho</groupId>
 	<artifactId>GGMapAddGrabber</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>GGMapAddGrabber</name>
 	<description>Google Map Address Grabber</description>
 	<properties>
@@ -70,11 +70,13 @@
 
 	<build>
 		<plugins>
+
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>GGMapAddGrabber</finalName>
 	</build>
 
 </project>

@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: ggmapaddgrabber
+    ports:
+      - 8081:8080
