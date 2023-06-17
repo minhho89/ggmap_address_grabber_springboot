@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GOOGLE MAP SCHOOL ADDRESS GRABBER</title>
+</head>
+<body>
+<h1>GOOGLE MAP SCHOOL ADDRESS GRABBER</h1>
+<h1>Location Form</h1>
+<form th:action="@{/location}" method="post">
+    <label for="apiKey">API Key:</label>
+    <input type="text" id="apiKey" name="apiKey" required>
+    <br>
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required>
+    <br>
+    <label for="searchQuery">Search Query:</label>
+    <input type="text" id="searchQuery" name="searchQuery" required>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+<p>Author: minhho | <a href="https://github.com/minhho89/">Github: minhho89</a> </p>
+
+</body>
+</html>
